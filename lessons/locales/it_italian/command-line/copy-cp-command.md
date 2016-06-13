@@ -24,7 +24,7 @@ Un'opzione utile consiste nell'impiego del flag -r, che copierà ricorsivamente 
 
 Prova a lanciare un comando cp su una directory che contiene un qualche file verso la tua directory Documenti. Non ha funzionato, vero? È successo perché devi copiare i file ma anche le directory aggiungendo il comando -r.
 
-<pre>$ cp -r Zucca/ /home/pete/Documenti</pre>
+<pre>$ cp -r Tonno/ /home/pete/Documenti</pre>
 
 Occorre precisare un'altra cosa, se copi un file verso una directory che ne contiene uno con lo stesso nome, il file verrà riscritto con il contenuto che stai copiando. Non è positivo se il file che hai appena sovrascritto conteneva delle cose che eri interessato a mantenere. Puoi aggiungere il flag -i (interattivo) per ricevere a video una richiesta di conferma prima di sovrascrivere un file.
 
